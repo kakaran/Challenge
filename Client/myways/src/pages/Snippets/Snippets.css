@@ -1,0 +1,42 @@
+.container{
+    background-color: black;
+    padding: 20px;
+    height: 100vh;
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px
+}
+
+.form {
+    color: white;
+    margin-bottom: 20px;
+  
+}
+
+.form input{
+    padding: 10px ;
+    font-size: 18px;
+}
+.form label{
+    margin-left: 10px;
+
+}
+
+.form button {
+    padding: 17px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.card{
+    color: white;
+    border: 1px solid gray;
+    width: 350px;
+    text-transform: capitalize;
+}
+
+.card h3{
+    border-bottom: 1px solid gray;
+}
